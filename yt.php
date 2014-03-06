@@ -27,7 +27,7 @@ if ($d == $today) {
 	
 	/* sudo pip install --upgrade youtube_dl  or download the youtube-dl binary from the above url and place it in cwd*/
 	
-	$cmd = 'youtube-dl -o "/var/achar/wp-content/uploads/upldr/temp_audio/%(title)s.%(ext)s" --restrict-filenames http://www.youtube.com/watch?v='.$id;
+	$cmd = 'youtube-dl -o "/TEMP/DIRECTORY/%(title)s.%(ext)s" --restrict-filenames http://www.youtube.com/watch?v='.$id;
 	
 	exec($cmd);
 	$cmd2 = 'youtube-dl --get-filename -o "%(title)s.%(ext)s" --restrict-filenames http://www.youtube.com/watch?v='.$id;
