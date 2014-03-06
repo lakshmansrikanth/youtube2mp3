@@ -1,4 +1,8 @@
 hoa-youtube
 ===========
 
-Captures live stream from Hangout On Air - embed it on a website or convert that to mp3.
+PHP script which captures latest video from youtube and converts that to mp3.
+
+Requires 'youtube-dl' file in Current Working Directory
+
+Requires ffmpeg 
